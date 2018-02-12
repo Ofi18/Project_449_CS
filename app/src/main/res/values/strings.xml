@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">p_449</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="password_again">Confirm Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_send">Send</string>
+    <string name="username">username</string>
+
+</resources>
