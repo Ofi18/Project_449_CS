@@ -1,5 +1,6 @@
 package com.ofi.project_449_cs;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
@@ -83,6 +84,11 @@ public class LoginActivity extends AppCompatActivity {
                 if (!task.isSuccessful()) {
                     Log.d("Chat", "Problem signing in: " + task.getException());
                     showErrorDialog("There was a problem signing in");
+                }
+                else {
+                    Intent intent = new Intent(LoginActivity.this,MainChat.class);
+                    finish();
+                    startActivity(intent);
                 }
             }
         });
