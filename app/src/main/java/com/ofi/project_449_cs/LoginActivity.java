@@ -81,6 +81,8 @@ public class LoginActivity extends AppCompatActivity {
 
                 Log.d("Chat", "signInWithEmail() onComplete: " + task.isSuccessful());
 
+                //Testing the ode by doing Exception Method(get Exception)
+
                 if (!task.isSuccessful()) {
                     Log.d("Chat", "Problem signing in: " + task.getException());
                     showErrorDialog("There was a problem signing in");
