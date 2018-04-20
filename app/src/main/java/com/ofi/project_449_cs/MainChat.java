@@ -22,7 +22,7 @@ public class MainChat extends AppCompatActivity {
     private EditText mInputText;
     private ImageButton mSendButton;
     private DatabaseReference mDatabaseReference;
-    //private ChatListAdapter mAdapter;
+    private ChatListAdapter mAdapter;
 
 
     @Override
@@ -81,6 +81,8 @@ public class MainChat extends AppCompatActivity {
         }
 
     }
+
+
 
 
 }
